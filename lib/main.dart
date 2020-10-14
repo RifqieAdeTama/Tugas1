@@ -1,6 +1,7 @@
 //package material
 import 'package:flutter/material.dart';
 
+//init
 //fungsi yang di jalankan pertamakali
 void main() {
   //menjalankan method runApp yang di dalamnya
@@ -8,15 +9,7 @@ void main() {
   runApp(new MyApp());
 }
 
-<<<<<<< HEAD
-//init
-=======
-//class myapp yang merupakan turuna dari stlwidget
->>>>>>> ad3abc0e266943878d37a11198f55032e67468df
 class MyApp extends StatelessWidget {
-  //yang harus di override class turunannya
-  @override
-  //method build dari stlwidget
   //method akan mengembalikan sebuah widget
   //yang merupakan tampilan dari stlwidget
   Widget build(BuildContext context) {
